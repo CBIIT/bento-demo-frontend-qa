@@ -11,7 +11,7 @@ export default [
     link: '/programs',
   },
   {
-    labelText: 'dashboard',
+    labelText: 'dashboard-QA edited 10/21',
     type: 'link',
     link: '/cases',
   },

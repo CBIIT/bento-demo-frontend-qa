@@ -2,7 +2,7 @@ import gql from 'graphql-tag';
 
 // -------------- Case ID area configurations --------------
 const caseHeader = {
-  label: 'Case ID',
+  label: 'Case ID -edited',
   dataField: 'subject_id',
 };
 
@@ -37,7 +37,7 @@ const leftPanel = [
     ],
   },
   {
-    sectionHeader: 'Demographics',
+    sectionHeader: 'Demographics - edited',
     // sectionDesc: 'Demographic Related Info',
     properties: [
       // A maximum of 10 properties are allowed
@@ -180,7 +180,7 @@ const table = {
   // Set 'display' to false to hide the table entirely
   display: true,
   // Table title
-  title: 'ASSOCIATED FILES',
+  title: 'ASSOCIATED FILES - table edited',
   // Field name for files data, need to be updated only when using a different GraphQL query
   filesField: 'files',
   // Value must be one of the 'dataField's in fileTableColumns
@@ -191,7 +191,27 @@ const table = {
   columns: [
     {
       dataField: 'file_name',
-      header: 'File Name',
+      header: 'File Name - edited',
+    },
+    {
+      dataField: 'file_name',
+      header: 'extra field 7 ',
+    },
+    {
+      dataField: 'file_name',
+      header: 'extra field 8 ',
+    },
+    {
+      dataField: 'file_name',
+      header: 'extra field 9 ',
+    },
+    {
+      dataField: 'file_name',
+      header: 'extra field 10 ',
+    },
+    {
+      dataField: 'file_name',
+      header: 'extra field 11 - after adding this   size column should be removed to maintain max 10 col count ',
     },
     {
       dataField: 'file_type',

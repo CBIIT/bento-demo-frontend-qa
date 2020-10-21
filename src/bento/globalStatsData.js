@@ -3,19 +3,25 @@ import gql from 'graphql-tag';
 export const globalStatsData = [
   // A maximum of 6 stats are allowed
   {
-    statTitle: 'Programs',
+    statTitle: 'newPrograms',
     datatable_field: 'program',
     type: 'field',
     statAPI: 'numberOfPrograms',
   },
   {
-    statTitle: 'Projects',
+    statTitle: 'newProjects',
     datatable_field: 'project_acronym',
     type: 'field',
     statAPI: 'numberOfProjects',
   },
   {
-    statTitle: 'Cases',
+    statTitle: 'extra Stat should remove Files',
+    datatable_field: 'project_acronym',
+    type: 'field',
+    statAPI: 'numberOfProjects',
+  },
+  {
+    statTitle: 'newCases',
     datatable_field: 'subject_id',
     type: 'field',
     statAPI: 'numberOfSubjects',
